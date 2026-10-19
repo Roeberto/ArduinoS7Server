@@ -32,6 +32,7 @@ do nich wartości (np. pomiary) i odczytuje polecenia przesłane przez PLC.
 11. [Ograniczenia](#ograniczenia)
 12. [Testowanie](#testowanie)
 13. [Struktura plików](#struktura-plików)
+14. [Licencja](#licencja)
 
 ## Cechy
 
@@ -299,6 +300,7 @@ S7Server/
 ├── library.properties          opis biblioteki dla Arduino IDE
 ├── keywords.txt                podświetlanie składni
 ├── README.md                   ta dokumentacja
+├── LICENSE                     licencja MIT
 ├── src/
 │   ├── S7Server.h              deklaracja klasy i opis funkcji
 │   └── S7Server.cpp            implementacja protokołu
@@ -306,3 +308,9 @@ S7Server/
     └── Podstawowy/
         └── Podstawowy.ino      przykład: Real + Int do PLC, Word z PLC
 ```
+
+## Licencja
+
+Biblioteka jest udostępniona na licencji **MIT** – można ją bezpłatnie używać, modyfikować
+i rozpowszechniać, także w projektach komercyjnych, pod warunkiem zachowania informacji
+o prawach autorskich i treści licencji. Pełny tekst: [LICENSE](LICENSE).
